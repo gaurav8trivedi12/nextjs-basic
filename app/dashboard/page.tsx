@@ -24,8 +24,8 @@ const LandingPage = () => {
                 <h2 className="text-3xl font-semibold text-gray-800">Struggling to Get Reviews for Your B2B SaaS?</h2>
                 <ul className="mt-4 space-y-4 text-gray-600">
                     <li>You know reviews are crucial for building trust and attracting new customers, but getting them consistently is a challenge.</li>
-                    <li>You don't have the time or resources to manually reach out to customers and request reviews.</li>
-                    <li>You're not sure how to encourage customers to leave reviews on the platforms that matter most, like G2, Capterra, and Gartner.</li>
+                    <li>You do not have the time or resources to manually reach out to customers and request reviews.</li>
+                    <li>You are not sure how to encourage customers to leave reviews on the platforms that matter most, like G2, Capterra, and Gartner.</li>
                 </ul>
             </div>
         </div>
@@ -55,7 +55,7 @@ const LandingPage = () => {
         {/* Service and Expectations Section */}
         <div className="py-12 bg-gray-50 px-6">
             <div className="max-w-4xl mx-auto">
-                <h2 className="text-3xl font-semibold text-gray-800">Here's What You Get with Our Service</h2>
+                <h2 className="text-3xl font-semibold text-gray-800">Here is What You Get with Our Service</h2>
                 <ul className="mt-4 space-y-4 text-gray-600">
                     <li>3 months of dedicated optimization to perfect your review generation strategy.</li>
                     <li>Ongoing automated review requests to maintain your top positions.</li>
