@@ -1,7 +1,7 @@
 export default function Dashboard() {
     return (
-        <div className="bg-white text-gray-900">
-    <!-- Headline and Contact Us Section -->
+<div className="bg-white text-gray-900">
+    {/* <!-- Headline and Contact Us Section --> */}
     <div className="pt-12 md:pt-16 px-6 md:px-0 max-w-7xl mx-auto">
         <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-teal-400 animate-text">
@@ -16,7 +16,7 @@ export default function Dashboard() {
         </div>
     </div>
 
-    <!-- Challenges Section -->
+    {/* <!-- Challenges Section --> */}
     <div className="py-12 px-6">
         <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-semibold text-gray-800">Struggling to Get Reviews for Your B2B SaaS?</h2>
@@ -28,7 +28,7 @@ export default function Dashboard() {
         </div>
     </div>
 
-    <!-- Automated System Section -->
+    {/* <!-- Automated System Section --> */}
     <div className="py-12 bg-gray-50 px-6">
         <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-semibold text-gray-800">Our Automated Review Generation System Makes It Easy</h2>
@@ -41,7 +41,7 @@ export default function Dashboard() {
         </div>
     </div>
 
-    <!-- Results Section -->
+    {/* <!-- Results Section --> */}
     <div className="py-12 px-6">
         <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-semibold text-gray-800">Proven Results for B2B SaaS Companies Like Yours</h2>
@@ -50,7 +50,7 @@ export default function Dashboard() {
         </div>
     </div>
 
-    <!-- Service and Expectations Section -->
+    {/* <!-- Service and Expectations Section --> */}
     <div className="py-12 bg-gray-50 px-6">
         <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-semibold text-gray-800">Here's What You Get with Our Service</h2>
@@ -65,10 +65,10 @@ export default function Dashboard() {
         </div>
     </div>
 
-    <!-- Footer Section -->
+    {/* <!-- Footer Section --> */}
     <div className="py-6 bg-gray-900 text-center text-white">
         <p>Copyright © 2024 Your Company Name</p>
     </div>
 </div>
-    );
+);
 }
