@@ -1,5 +1,6 @@
 export default function Dashboard() {
     return (
+        <>
 <div className="bg-white text-gray-900">
     {/* <!-- Headline and Contact Us Section --> */}
     <div className="pt-12 md:pt-16 px-6 md:px-0 max-w-7xl mx-auto">
@@ -70,5 +71,6 @@ export default function Dashboard() {
         <p>Copyright © 2024 Your Company Name</p>
     </div>
 </div>
+</>
 );
 }
