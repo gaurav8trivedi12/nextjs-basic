@@ -1,12 +1,15 @@
 
-import ContactUsForm from '@/app/dashboard/Contact.client';
-import Navbar from '@/app/dashboard/Navbar';
+import ContactUsForm from '@/app/beta1/Contact.client';
+import Navbar from '@/app/beta1/Navbar';
 import { Archive, CircleCheck, ThumbsUp } from 'lucide-react';
 import React from 'react';
 
 const GetReviewsButton = () => {
   return (
-    <button className="text-lg mt-6 py-4 px-6 bg-blue-600 hover:bg-blue-700 rounded-full text-white font-bold shadow-lg tracking-wider">
+    <button
+      // className="text-lg mt-6 py-4 px-6 bg-blue-600 hover:bg-blue-700 rounded-full text-white font-bold shadow-lg tracking-wider"
+      className="btn btn-primary"
+    >
       Get Reviews for my SaaS
     </button>
   )
@@ -29,7 +32,7 @@ const LandingPage = () => {
         </div>
 
         <div className='text-center'>
-          <img src="https://www.trustindex.io/wp-content/uploads/2021/02/review2.png" alt='test' className='mx-auto' style={{ height: '600px', width: 'auto' }} />
+          <img src="/web-design.svg" alt='test' className='mx-auto' style={{ height: '600px', width: 'auto' }} />
         </div>
 
         {/* Challenges Section */}
