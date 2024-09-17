@@ -61,8 +61,8 @@ const Navbar = () => {
           <ul
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-            <li><a href="#pricing">Pricing</a></li>
-            {/* <li><a>Portfolio</a></li> */}
+            <li><a>Pricing</a></li>
+            <li><a>Portfolio</a></li>
             <li><a>About</a></li>
           </ul>
         </div>
@@ -71,7 +71,7 @@ const Navbar = () => {
         <p className="text-2xl font-bold">rivYou</p>
       </div>
       <div className="navbar-end pr-8">
-        <button className="btn btn-link">
+        <button className="btn btn-link text-neutral">
           About Us
         </button>
       </div>

@@ -18,7 +18,8 @@ const config: Config = {
   },
   plugins: [daisyui],
   daisyui: {
-    themes: ["bumblebee"],
+    // themes: ["bumblebee"],
+    themes: ["dim"]
   }
 };
 export default config;
